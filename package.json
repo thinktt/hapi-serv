@@ -1,0 +1,17 @@
+{
+  "name": "hapi-serv",
+  "version": "0.0.1",
+  "description": "A basic Hapi server",
+  "main": "app.js",
+  "scripts": {
+    "start": "forever app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "forever -w app.js"
+  },
+  "author": "Tobias Toland",
+  "license": "MIT",
+  "dependencies": {
+    "forever": "^0.15.1",
+    "hapi": "^12.1.0"
+  }
+}
